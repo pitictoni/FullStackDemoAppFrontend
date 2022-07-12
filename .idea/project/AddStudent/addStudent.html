@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add/Edit student</title>
+    <script src="addStudent.js"></script>
+    <link rel="stylesheet" href="addStudent.css">
+</head>
+<body>
+  <div id="studentFields">
+      <h1>Add/Edit Student</h1>
+      <label for="firstName">First name:</label>
+      <input type="text" id="firstName"> </input>
+      <br>
+      <label for="surName">Surname:</label>
+      <input type="text" id="surName"> </input>
+      <br>
+      <label for="mail">Mail:</label>
+      <input type="text" id="mail"> </input>
+      <br>
+      <label for="pictureUrl">Picture URL:</label>
+      <input type="text" id="pictureUrl"> </input>
+
+      <img id="Cancel" src="../img/cancel.jpg" onclick="goToStudentList()">
+      <img id="Add" src="../img/ok.jpg" onclick="addStudent()">
+
+  </div>
+</body>
+</html>
